@@ -1,0 +1,67 @@
+* {
+	margin: 0;
+	padding: 0;
+	font-family: "Microsoft YaHei UI", sans-serif;
+}
+
+article {
+	margin: 20px;
+	padding: 20px;
+    background-color: #eee;	
+	height: auto;
+	min-height: 430px;
+	border-color: #999;
+	border-style: ridge;
+}
+
+.left {
+	margin: 20px;
+	position: absolute;
+	width: 200px;
+	left: 20px;
+	top: 20px;
+	background-color: white;
+	border-color: #999;
+	border-style: ridge;
+}
+
+.left img {
+	margin: 20px;
+    height: 80px;
+    width: 80px;
+    float: left;
+}
+
+.left p {
+	font-size: 0.7em;
+	width: 80px;
+    height: 120px;
+	line-height: 60px;
+    float: left;
+}
+
+.main {
+	padding: 20px;
+	background-color: white;
+	margin: 0px 140px 0px 220px;
+	border-color: #999;
+	border-style: ridge;
+}
+
+.right {
+	margin: 20px;
+	background-color: white;
+	width: 120px;
+	position: absolute;
+	right: 20px;
+	top: 20px;
+	border-color: #999;
+	border-style: ridge;
+}
+
+.right img{
+	margin: 20px;
+	height: 80px;
+    width: 80px;
+    display: block;
+}
