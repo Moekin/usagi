@@ -1,0 +1,30 @@
+* {
+	padding: 0;
+	margin: 0;
+}
+
+.middle {
+	background: #ccc;
+	width: 400px;
+	height: 200px;
+	position: absolute;
+	top: 0; right: 0; left: 0; bottom: 0;
+	margin: auto;	
+}
+
+.left {
+	background: #fc0;
+	width: 50px;
+	height: 50px;
+	border-radius: 0 0 100px 0;
+	float: left;
+}
+
+.right {
+	background: #fc0;
+	width: 50px;
+	height: 50px;
+	border-radius: 100px 0 0 0;
+	float:right;
+	margin-top: 150px;
+}
