@@ -1,0 +1,14 @@
+body {
+    margin: 0;
+}
+.container {
+    margin-left: 0.5vw;
+}
+.block {
+    width: 30vw;
+    height: 30vw;
+    margin: 0.5vw;
+    border-radius: 20px;
+    background: orange;
+    float: left;
+}
