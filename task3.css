@@ -1,0 +1,32 @@
+body {
+    margin: 0;
+    background: #68cdd5;
+}
+
+.return {
+    margin: 20px;
+}
+
+.bigLogo {
+    margin: 0 auto;
+    display: block;
+}
+
+.content {
+    margin: 5% 10%;
+    font-size: 22px;
+    color: white;
+}
+
+.smallLogo {
+    margin: 15% 0;
+    text-align: center;
+}
+
+#leftLogo {
+    float: left;
+}
+
+#rightLogo {
+    float: right;
+}
