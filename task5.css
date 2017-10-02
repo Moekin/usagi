@@ -39,8 +39,8 @@ main {
 .information {
     height: 185px;
     padding-top: 40px;
-    background: url(image/t5_bg.png) no-repeat;
-    background-size: 100%;
+    background: url(image/t5_bg.png) no-repeat center;
+    background-size: cover;
 }
 
 .information img {
