@@ -33,7 +33,7 @@ header a {
 }
 
 main {
-    margin-top: 48px;
+    margin: 48px 0 60px 0;
 }
 
 .information {
@@ -81,8 +81,7 @@ main {
     margin-left: 14px;
     padding: 10px;
     border-bottom: 1px solid #e1e5e7;
-    height: 40px;
-    line-height: 40px;
+    line-height: 30px;
 }
 
 .item-list span:nth-child(1) {
@@ -104,11 +103,22 @@ main {
     border: none !important;
     background: url(image/star.png) no-repeat;
     padding-left: 30px;
+    padding-top: 1px;
     color: black !important;
 }
 
 .red {
     color: #e9888a !important;
+}
+
+/*做的时候没看清条件用了<span>没办法了只能这样不想大改(*/
+.left {
+    position: absolute;
+}
+
+.right {
+    margin-left: 89px;
+    display: block;
 }
 
 footer {
