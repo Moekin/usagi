@@ -135,6 +135,7 @@ footer button {
     font-size: 1.2em;
     border-radius: 5px;
     cursor: pointer;
+    outline: none;
 }
 
 .left-btn {
