@@ -1,0 +1,142 @@
+body, ul{
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:link, a:visited{
+    color: inherit;
+}
+
+li {
+    list-style: none;
+}
+
+header {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 50px;
+    background: #5fc0cd;
+    text-align: center;
+    line-height: 50px;
+    color: white;
+    font-size: 1.2em;
+}
+
+header a {
+    float: left;
+    margin: 0 -25px 0 10px;
+}
+
+main {
+    margin-top: 48px;
+}
+
+.information {
+    height: 185px;
+    padding-top: 40px;
+    background: url(image/t5_bg.png) no-repeat;
+    background-size: 100%;
+}
+
+.information img {
+    float: left;
+    margin: 20px;
+}
+
+.detail-inform {
+    padding: 20px 0 0 150px;
+    color: white;
+}
+
+.detail-inform p {
+    font-size: 1.2em;
+}
+
+.detail-inform span:nth-child(1) {
+    margin-left: 10px;
+}
+
+.detail-inform span:nth-child(2) {
+    background: url(image/shape4.png) no-repeat;
+    padding-left: 28px;
+}
+
+.skill-line {
+    border-bottom: 1px solid #e1e5e7;
+    padding-bottom: 5px;
+}
+
+.skill-line p {
+    margin-left: 15px;
+    border-left: 3px solid #5fc0cd;
+    padding-left: 15px;
+}
+
+.item-list li {
+    margin-left: 14px;
+    padding: 10px;
+    border-bottom: 1px solid #e1e5e7;
+    height: 40px;
+    line-height: 40px;
+}
+
+.item-list span:nth-child(1) {
+    padding-right: 15px;
+    color: #999;
+}
+
+.item-list span:nth-child(2) {
+    border-left: 1px solid #e1e5e7;
+}
+
+.item-list span {
+    color: black;
+    padding-left: 10px;
+}
+
+.provide span {
+    margin-left: 7px;
+    border: none !important;
+    background: url(image/star.png) no-repeat;
+    padding-left: 30px;
+    color: black !important;
+}
+
+.red {
+    color: #e9888a !important;
+}
+
+footer {
+    display: flex;
+    width: 100%;
+    height: 60px;
+    position: fixed;
+    bottom: 0;
+    background: white;
+}
+
+footer button {
+    flex: 1;
+    font-size: 1.2em;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.left-btn {
+    margin: 10px 0 10px 10px;
+    border: 2px solid #5fc0cd;
+    background: white;
+    color: #5fc0cd;
+}
+
+.right-btn {
+    margin: 10px;
+    border: none;
+    background: #5fc0cd;
+    color: white;
+}
