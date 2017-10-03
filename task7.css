@@ -1,0 +1,115 @@
+/*reset*/
+html {
+    font-size: 675%;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-size: 0.14rem;
+    background: #f0f0f0;
+}
+
+a:link, a:visited{
+    color: inherit;
+    text-decoration: none;
+}
+
+/*header*/
+header {
+    height: 0.4rem;
+    background: #29bde0;
+}
+
+header span {
+    width: 0.45rem;
+    height: 0.45rem;
+    display: inline-block;
+    background: url(image/t7_bar.png) no-repeat;
+    background-size: 60%;
+    margin: 0.05rem 0 0 0.05rem;
+    cursor: pointer;
+}
+
+/*main*/
+main {
+    margin: 0 5% 0.2rem 5%;
+    text-align: center;
+}
+
+.turn-page {
+    display: inline-block;
+    width: 0.3rem;
+    height: 3.55rem;
+    opacity: 0;
+    position: absolute;
+    right: 5%;
+    top: auto;
+    cursor: pointer;
+}
+
+.top {
+    height: 0.5rem;
+    color: #9a9a9a;
+    background: white;
+    margin: 0.1rem 0;
+    line-height: 0.5rem;
+    -moz-box-shadow: 2px 2px 2px #ccc;
+    -webkit-box-shadow: 2px 2px 2px #ccc;
+    box-shadow: 2px 2px 2px #ccc;
+}
+
+.top span {
+    display: inline-block;
+    width: 0.24rem;
+    height: 0.4rem;
+    background: url(image/task7_1.png) no-repeat;
+    float: right;
+    transform: scale(0.5);
+    margin: 0.06rem 0 0 -0.24rem;
+    cursor: pointer;
+}
+
+.content {
+    background-color: white;
+    background-image: url(image/triangle.png);
+    background-size: 0.14rem 0.28rem;
+    background-repeat: no-repeat;
+    background-position: center right;
+    -moz-box-shadow: 2px 3px 5px #ccc;
+    -webkit-box-shadow: 2px 3px 5px #ccc;
+    box-shadow: 2px 3px 5px #ccc;
+}
+
+.game-title {
+    border-bottom: 1px solid #fde1ae;
+    color: #fbb435;
+    padding: 0.1rem 0;
+}
+
+.game-mod {
+    height: 0.6rem;
+    background: #69d1e9;
+    line-height: 0.6rem;
+    margin: 0.1rem 10%;
+    color: white;
+    cursor: pointer;
+}
+
+.game-info {
+    color: #787878;
+}
+
+.slide-circle span {
+    display: inline-block;
+    width: 0.08rem;
+    height: 0.08rem;
+    background: #ddd;
+    border-radius: 0.04rem;
+    margin: 0.025rem;
+    cursor: pointer;
+}
+
+.slide-circle .selected {
+    background: #69d1e9;
+}
