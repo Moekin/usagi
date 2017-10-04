@@ -1,0 +1,167 @@
+/*reset*/
+html {
+    font-size: 675%;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-size: 0.14rem;
+    background: #f0f0f0;
+}
+
+/*header*/
+header {
+    width: 100%;
+    height: 0.4rem;
+    background: #29bde0;
+    position: fixed;
+    top: 0;
+    text-align: center;
+    line-height: 0.4rem;
+    color: white;
+    font-size: 0.18rem;
+}
+
+header span:nth-child(1) {
+    display: block;
+    width: 0.4rem;
+    height: 0.4rem;
+    background: url(image/list.png) no-repeat;
+    background-size: 60%;
+    background-position: 0.1rem;
+    float: left;
+    cursor: pointer;
+}
+
+header span:nth-child(2) {
+    display: block;
+    width: 0.36rem;
+    height: 0.36rem;
+    background: url(image/cancel.png) no-repeat;
+    background-size: 60%;
+    background-position: 0.07rem 0.1rem;
+    float: right;
+    cursor: pointer;
+}
+
+/*message*/
+.message {
+    width: 100%;
+    height: 0.38rem;
+    background: #b9e9f5;
+    position: fixed;
+    top: 0.4rem;
+    line-height: 0.38rem;
+    color: #464646;
+    padding-left: 10%;
+    padding-right: 10%;
+    font-size: 0.12rem;
+}
+
+/*纯CSS三角形*/
+.message span {
+    width: 0;
+    height: 0;
+    border-left: 0.05rem solid transparent;
+    border-right: 0.05rem solid transparent;
+    border-top: 0.07rem solid #b9e9f5;
+    float: left;
+    margin: 0.38rem -0.1rem 0 0;
+}
+
+/*audio*/
+.message div {
+    width: 0.35rem;
+    height: 0.35rem;
+    background: url(image/audio.png) no-repeat;
+    background-size: 80%;
+    float: right;
+    margin: 0.05rem 10% 0 0;
+    cursor: pointer;
+}
+
+/*main*/
+main {
+    margin-top: 0.78rem;
+    margin-bottom: 0.7rem;
+    background: #29bde0;
+    overflow: hidden;
+}
+
+.game-tip {
+    padding: 0.1rem 0 0.1rem 10%;
+    color: white;
+    font-size: 0.12rem;
+}
+
+.player {
+    width: 20%;
+    margin: 1% 5.6% 0 5.6%;
+    float: left;
+}
+
+.tool-bar {
+    width: 100%;
+    height: 5vw;
+    margin: 2vw 1vw 0 1vw;
+    opacity: 0;
+    cursor: pointer;
+}
+
+.tool-bar span {
+    display: block;
+    width: 100%;
+    height: 5vw;
+    background: url(image/toolbar.png) no-repeat;
+    background-size: 100%;
+}
+
+.tool-bar:hover {
+    opacity: 1;
+}
+
+.player-icon {
+    width: 100%;
+    height: 20vw;
+    background: #f5c97b;
+    text-align: center;
+    border: 1vw solid white;
+}
+
+.role {
+    height: 15vw;
+    line-height: 15vw;
+    color: #565656;
+    font-size: 5vw;
+}
+
+.index {
+    height: 5vw;
+    line-height: 5vw;
+    background: #83b09a;
+    color: white;
+    font-size: 2vw;
+}
+
+/*footer*/
+footer {
+    position: fixed;
+    bottom: 0;
+    display: block;
+    width: 100%;
+    height: 0.7rem;
+    background: #29bde0;
+}
+
+.decide-btn {
+    width: 80%;
+    height: 0.5rem;
+    background: #fbb435;
+    margin: 0.1rem 10%;
+    line-height: 0.5rem;
+    text-align: center;
+    font-size: 0.2rem;
+    color: white;
+    cursor: pointer;
+}

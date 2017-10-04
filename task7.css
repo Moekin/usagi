@@ -88,11 +88,12 @@ main {
 }
 
 .game-mod {
+    display: block;
     height: 0.6rem;
     background: #69d1e9;
     line-height: 0.6rem;
     margin: 0.1rem 10%;
-    color: white;
+    color: white !important;
     cursor: pointer;
 }
 
