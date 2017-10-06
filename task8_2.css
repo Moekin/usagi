@@ -1,0 +1,368 @@
+/*reset*/
+html{
+    font-size: 675%;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    font-size: 0.14rem;
+}
+
+ul {
+    list-style: none;
+}
+
+a:link, a:visited{
+    color: inherit;
+    text-decoration: none;
+}
+
+/*header*/
+/**top**/
+.top {
+    height: 0.4rem;
+    line-height: 0.4rem;
+    color: #29b078;
+    margin: 0 8%;
+    overflow: hidden;
+}
+
+.top span {
+    display: block;
+    width: 120px;
+    height: 40px;
+    background: url(image/top_icon.png) no-repeat 0 0.08rem;
+    float: right;
+    cursor: pointer;
+}
+
+/**nav**/
+nav {
+    border: none !important;
+}
+
+.navbar-toggle {
+    background-color: #29b078;
+    border: none;
+}
+
+.navbar-toggle:focus {
+    background: #29b078 !important;
+}
+
+.icon-bar {
+    background: white !important;
+}
+
+.navbar {
+    background: #29b078;
+    border-radius: 0;
+}
+
+.navbar-nav {
+    background-color: #29b078;
+    /*trick*/
+    margin-top: -0.0001rem;
+}
+
+.navbar-nav {
+    padding-right: 8%;
+    overflow: hidden;
+    text-align: center;
+}
+
+.navbar-nav li a {
+    font-size: 0.16rem;
+    display: block;
+    height: 0.79rem;
+    line-height: 0.5rem;
+}
+
+.navbar-nav li a:hover {
+    border-bottom: 5px solid white;
+}
+
+.navbar-default .navbar-nav > li > a {
+    color: white !important;
+}
+
+.company-logo {
+    margin-top: -0.18rem;
+}
+
+/*main*/
+main {
+    /*margin*/
+    margin: 0 15%;
+}
+
+.main-block {
+    margin-bottom: 0.2rem;
+    border-bottom: 2px solid #eee;
+    padding-bottom: 0.2rem;
+}
+
+.main-title {
+    font-weight: bold;
+}
+
+/**nav**/
+.main-nav span {
+    color: #29b078;
+}
+
+.main-direction span {
+    cursor: pointer;
+    margin: 0 0.05rem;
+
+}
+
+.main-direction span:hover {
+    color: white;
+    background: #29b078;
+}
+
+.main-direction span:nth-child(1) {
+    color: #888;
+    cursor: default;
+    background: none;
+}
+
+/**frontend**/
+.frontend {
+    margin: 0.3rem 0;
+}
+
+.red-font {
+    color: #f01400;
+}
+
+.pro-flex-box {
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+}
+
+.pro-block {
+    margin: 0.2rem 0.13rem 0.2rem 0;
+    cursor: pointer;
+}
+
+.block-top {
+    border: 1px solid #ddd;
+    border-bottom: none;
+    padding:0.1rem;
+    /*overflow: hidden;*/
+    display: flex;
+    justify-content:center;
+    align-items: start;
+}
+
+.block-top img {
+    margin-right: 0.1rem;
+    /*position: absolute;*/
+}
+
+.block-top div {
+    font-size: 0.12rem;
+    /*margin-left: 90px;*/
+}
+
+.block-top > div > span {
+    font-weight: bold;
+    display: block;
+    margin: 0.1rem 0;
+}
+
+.block-middle td, .block-middle span {
+   font-size: 0.12rem;
+}
+
+.first-tr span {
+    width: 16px;
+    height: 15px;
+    line-height:16px;
+    display: inline-block;
+    background: url(image/t8_star.png) no-repeat;
+    margin-left: 0.1rem;
+}
+
+.second-tr td > span:first-child {
+    margin-right: 0.1rem;
+}
+
+.third-tr th span {
+    display: inline-block;
+    width:100% ;
+    margin-top: 0.28rem;
+    text-align: center;
+}
+
+.td-right {
+    float: right;
+}
+
+.block-bottom {
+    border: 1px solid #ddd;
+    border-top: none;
+    margin-top: -0.2rem;
+}
+
+.block-bottom div {
+    padding: 0.1rem;
+}
+
+.block-bottom div:nth-child(1) {
+    border-bottom: 1px solid #ddd;
+}
+
+.block-bottom div {
+    font-size: 0.12rem;
+}
+
+/*hover*/
+
+.pro-block {
+
+    position: relative;
+}
+
+.pro-block:hover {
+    /*box-shadow: 0 17px 50px 0 rgba(0,0,0,.19);*/
+    /*transform: translate3d(0,-2px,0);*/
+    /*transition: all .3s cubic-bezier(.55,0,.1,1);*/
+}
+
+.hover-message:hover {
+    opacity: 0.8;
+}
+
+
+.hover-message {
+    color: white;
+    background: black;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    opacity: 0;
+    padding: 0 0.2rem;
+    transition: opacity 1s;
+    -moz-transition: opacity 1s;
+    -webkit-transition: opacity 1s;
+    -o-transition: opacity 1s;
+}
+
+.hover-message div:nth-child(1) {
+    text-align: center;
+    margin-bottom: 0.2rem;
+    margin-top: 0.8rem;
+}
+
+/*bottom*/
+.bottom {
+    background: #26a26f;
+    overflow: hidden;
+    padding: 0.3rem 0;
+    color: white;
+}
+
+.bottom-left div {
+    margin: 0.2rem 0;
+}
+
+.bottom-left span {
+    margin-right: 0.1rem;
+    border-right: 1px solid white;
+    padding-right: 0.1rem;
+    cursor: pointer;
+    float: left;
+}
+
+.bottom-left span:nth-child(3) {
+    border-right: none;
+}
+
+.bottom-middle div {
+    margin: 0.2rem 0;
+}
+
+.bottom-middle span {
+    display: block;
+    float: left;
+    margin-right: 0.2rem;
+    cursor: pointer;
+}
+
+.bottom-middle span:hover {
+    border-bottom: 1px solid white;
+}
+
+.bottom-right {
+    text-align: center;
+    margin-top: 0.15rem;
+}
+
+/*footer*/
+footer {
+    background: #26a26f;
+    text-align: center;
+    color: white;
+}
+
+
+
+
+/*media*/
+@media (max-width: 990px) {
+    html {
+        font-size: 500%;
+    }
+
+    .m-hidden {
+        display: none;
+    }
+
+    /*header*/
+    header nav.navbar {
+        line-height: 0.6rem;
+    }
+
+    .navbar-nav li a {
+        height: 0.4rem;
+        line-height: 0.2rem;
+    }
+    /*1*/
+    .navbar-nav {
+        padding: 0;
+    }
+    /*2*/
+    .navbar-nav li a:hover {
+        border-bottom: none;
+    }
+
+    /*main*/
+    .pro-flex-box {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .third-tr th span {
+        margin-top: 0.36rem;
+    }
+}
+
+@media (min-width: 990px) {
+    .pro-block {
+        width: 31%;
+    }
+
+    .block-top img {
+        width:40%;
+    }
+
+    .block-top div {
+        width: 60%;
+    }
+
+}

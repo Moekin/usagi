@@ -32,8 +32,7 @@ a:link, a:visited{
     display: block;
     width: 120px;
     height: 40px;
-    background: url(image/top_icon.png) no-repeat;
-    background-position: 0 0.08rem;
+    background: url(image/top_icon.png) no-repeat 0 0.08rem;
     float: right;
     cursor: pointer;
 }
@@ -140,20 +139,16 @@ main {
     display: block;
     width: 60px;
     height: 48px;
-    background: url(image/task8.png) no-repeat;
-    background-position: 0 -119px;
-    margin: 0 auto;
-    margin-bottom: 0.18rem;
+    background: url(image/task8.png) no-repeat 0 -119px;
+    margin: 0 auto 0.18rem;
 }
 
 .info-third-img {
     display: block;
     width: 52px;
     height: 55px;
-    background: url(image/task8.png) no-repeat;
-    background-position: 0 -62px;
+    background: url(image/task8.png) no-repeat 0 -62px;
     margin: 0 auto;
-    margin-bottom: 0.1rem;
 }
 
 .user-icon {
@@ -229,7 +224,6 @@ main {
 /*fourth line*/
 .company-flex-box {
     display: flex;
-    box-sizing: 2px 2px 5px solid;
     justify-content: center;
 }
 
@@ -283,7 +277,6 @@ main {
     overflow: hidden;
     padding: 0.3rem 0;
     color: white;
-    text-align: middle;
 }
 
 .bottom-left div {
